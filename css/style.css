@@ -14,7 +14,7 @@ body, html{
 }
 
 .parallax {
-    background-image: url("background.jpg");
+    background-image: url("img/background.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -205,7 +205,7 @@ body, html{
 }
 
 .page-header {
-    background: url(background.jpg) center center no-repeat;
+    background: url(img/background.jpg) center center no-repeat;
     background-size: cover;
     
 }

@@ -1,18 +1,35 @@
 /********** Template CSS **********/
 :root {
-    --primary: #de5f40;
-    --secondary: #e2c536;
-    --light: #F7F7F7;
-    --dark: #312d2d;
+    --primary: #FFFFFF;
+    --secondary: blue;
+    --light: rgb(246, 246, 246);
+    --dark: green;
 }
 
-.back-to-top {
+
+/*** Experimenting Parallax ***/
+body, html{
+    height: 100%;
+}
+
+.parallax {
+    background-image: url("background.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*** End of Parallax Experiment***/
+/*.back-to-top {
     position: fixed;
     display: none;
     right: 30px;
     bottom: 30px;
     z-index: 99;
-}
+}*/
 
 .fw-bold {
     font-weight: 700 !important;
@@ -25,7 +42,6 @@
 .fw-semi-bold {
     font-weight: 500 !important;
 }
-
 
 /*** Spinner ***/
 #spinner {
@@ -88,15 +104,18 @@
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
+    background-color: #000000;
+
 }
 
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
-    padding: 25px 0;
+    padding: 25px 15;
     color: var(--dark);
     font-size: 18px;
     font-weight: 500;
-    outline: none;
+    outline: solid black;
+    
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -120,7 +139,7 @@
     }
 
     .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid #000000;
     }
 }
 
@@ -138,7 +157,7 @@
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
-        transition: .5s;
+        /*transition: .5s;*/
         opacity: 1;
     }
 }
@@ -166,8 +185,8 @@
     width: 3rem;
     height: 3rem;
     border-radius: 3rem;
-    background-color: var(--primary);
-    border: 10px solid var(--primary);
+    background-color: var(--dark);
+    border: 10px solid var(--dark);
 }
 
 @media (max-width: 768px) {
@@ -185,8 +204,9 @@
 }
 
 .page-header {
-    background: url(../img/banner.jpg) center center no-repeat;
+    background: url(background.jpg) center center no-repeat;
     background-size: cover;
+    
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {

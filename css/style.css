@@ -3,7 +3,8 @@
     --primary: #FFFFFF;
     --secondary: blue;
     --light: rgb(246, 246, 246);
-    --dark: green;
+    --dark: rgb(68, 63, 63);
+    --nav: rgba(84, 202, 115, 0.837);
 }
 
 
@@ -111,7 +112,7 @@ body, html{
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 15;
-    color: var(--dark);
+    color: var(--nav);
     font-size: 18px;
     font-weight: 500;
     outline: solid black;

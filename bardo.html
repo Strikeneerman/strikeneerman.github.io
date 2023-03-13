@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <!--ALTERAÇÃO: Título alterado -->
-    <title>Guia DnD - Bárbaro</title>
+    <title>Guia DnD - Bardo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -75,8 +75,8 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Classes</a>
                     <div class="dropdown-menu bg-black m-0">
-                        <a href = "barbaro.html" class="dropdown-item active">Bárbaro</a>
-                        <a href = "bardo.html" class="dropdown-item">Bardo</a>
+                        <a href = "barbaro.html" class="dropdown-item">Bárbaro</a>
+                        <a href = "bardo.html" class="dropdown-item active">Bardo</a>
                         <a href = "clerigo.html" class="dropdown-item">Clérigo</a>
                         <a href = "druida.html" class="dropdown-item">Druida</a>
                         <a href = "feiticeiro.html" class="dropdown-item">Feiticeiro</a>
@@ -110,18 +110,18 @@
     </nav>
     <!-- Navbar End -->
 
-     <!-- barbaro Start -->
+     <!-- bardo Start -->
      <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="section-title bg-white text-center text-primary px-3">Classes</p>
-                <h1 class="mb-5">Bárbaro</h1>
+                <h1 class="mb-5">Bardo</h1>
             </div>
             
             <div class="mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 80% ;">
                 <center>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AGTkGFQg3Rw?&mute=1" title="YouTube video player" 
-                        frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qiHXxrCB5yk?mute=1" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </center>
                 <div class="table">
                     <h6><span style="font-weight:bold"><i class="fa fa-heart " aria-hidden="true"></i>Pontos de vida</span></h6>
@@ -129,15 +129,15 @@
                         <tbody>
                         <tr>
                             <th>Dado</th>
-                            <td>1d12</td>
+                            <td>1d8</td>
                         </tr>
                         <tr>
                             <th>Pontos de vida a nível 1</th>
-                            <td>12 + modificador da Constituição</td>
+                            <td>8 + modificador da Constituição</td>
                         </tr>
                         <tr>
                             <th>Pontos de vida a níveis superiores</th>
-                            <td>1d12(ou 7) + modificador da constituição por nível acima de 1</td>
+                            <td>1d8(ou 5) + modificador da constituição por nível acima de 1</td>
                         </tr>
                         </tbody>
                     </table>
@@ -149,23 +149,23 @@
                         <tbody>
                         <tr>
                             <th>Armadura</th>
-                            <td>leve, média, escudos</td>
+                            <td>leve</td>
                         </tr>
                         <tr>
                             <th>Armas</th>
-                            <td>armas simples, armas marciais</td>
+                            <td>armas simples, bestas de mão, espadas longas, espadas curtas e rapiers</td>
                         </tr>
                         <tr>
                             <th>Ferramentas</th>
-                            <td>nenhuma</td>
+                            <td>três instrumentos à escolha</td>
                         </tr>
                         <tr>
                             <th>Chance de evadir</th>
-                            <td>Força, Constituição</td>
+                            <td>Destreza, Carisma</td>
                         </tr>
                         <tr>
-                            <th>Habilidades (escolhe dois)</th>
-                            <td> Aptidão com Animais, Atletismo, Intimidação, Natureza, Perceção, Sobrevivência</td>
+                            <th>Habilidades (escolhe três)</th>
+                            <td>qualquer uma</td>
                         </tr>
                         </tbody>
                     </table>
@@ -174,38 +174,56 @@
             </br>
 
                 <div class="table">
-                    <h6><span style="font-weight:bold">Rage</span></h6>
+                    <h6><span style="font-weight:bold">Bardic Inspiration</span></h6>
                     <table class="table">
                         <tbody>
                         <tr >
-                            <th rowspan="3">No teu turno podes entrar num estado de raiva como uma ação adicional. Nesse estado ganhas os seguintes benefícios</td>
-                            <td>Tens vantagem em testes de Força e chances de evadir com Força</td>
+                            <td>Podes inspirar outros através de música ou palavras</td>
                         </tr>
                         <tr>
-                            <td>Ganhas um bónus quando atacas com uma arma corpo a corpo usando Força</td>
+                            <td>Para isso, usas uma ação extra no teu turno para escolher uma criatura (que não seja tu) a uma distância de 60 pés de ti que te consiga ouvir</td>
                         </tr>
                         <tr>
-                            <td>Tens resistência a dano de impacto(bludgeoning), cortes(slashing) e penetrações(piercing)</td>
+                            <td>Nos próximos 10 minutos, essa criatura pode rolar um d6 e adicionar o número obtido a um teste de habilidade, 
+                        a um rolo de ataque ou a uma chance de evadir que faça, tendo de especificar se quer ou não usar antes de rolar um d20</td>
                         </tr>
                         <tr>
-                            <td>Não podes usar spells</td>
+                            <td>Só pode ser usado uma vez e cada criatura só pode ter um dado de cada vez</td>
                         </tr>
                         <tr>
-                            <td>Dura um minuto, acabando mais cedo se ficares inconsciente, não atacares ou se não sofreres dano antes do fim do turno.</td>
+                            <td>Podes usar esta habilidade um número de vezes igual ao teu modificador de carisma (mínimo de um), ganhando de volta as vezes que usaste depois de um descanso longo</td>
                         </tr>
                         <tr>
-                            <td>Depois de usado, terás de fazer um longo descanso para voltar a utilizar.</td>
+                            <td>O dado muda para um d8 a nível 5, para um d10 a nível 10 e para um d12 a nível 15</td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
+            </br>
+
+            <div class="table">
+                <h6><span style="font-weight:bold">Spellcasting</span></h6>
+                <table class="table">
+                    <tbody>
+                    <tr >
+                        <td>Aprendeste a desemaranhar e moldar as linhas da realidade em harmonia com os teus desejos e música. A nível 1 sabes 4 feitiços de nível 1</td>
+                    </tr>
+                    <tr>
+                        <td>Aprendes um novo a cada nível (excepto 12 16 19 e 20) e cada um destes tem de ser de um nível para o qual tenhas spellslots</td>
+                    </tr>
+                    <tr>
+                        <td>Quando ganhas um nível podes também substituir um que já saibas por outro novo (desde que tenhas spellslots para tal)</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
 
             </br>
                
             </div>
         </div>
     </div>
-    <!-- barbaro End -->
+    <!-- bardo End -->
 
 
 

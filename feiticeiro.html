@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- -->
+<head>
+    <meta charset="utf-8">
+    <!--ALTERAÇÃO: Título alterado -->
+    <title>Guia DnD - Feiticeiro</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+
+    <!--ALTERAÇÕES: "Follow Us" removido, redes sociais adicionadas-->
+    <div class="container-fluid bg-dark px-0">
+        <div class="row g-0 d-none d-lg-flex">
+            <div class="col-lg-6 ps-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center text-light">
+                    <a class="btn btn-link text-light" href="https://www.facebook.com/dungeonsanddragons/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href="https://twitter.com/Wizards_DnD"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.instagram.com/dndwizards/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark sticky-top px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/Dnd.png" width="50px" height = 50px></img>
+        </a>
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Página Inicial</a>
+                <a href="jogo.html" class="nav-item nav-link">Jogo</a>
+                <a href="guia.html" class="nav-item nav-link">Guia</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Classes</a>
+                    <div class="dropdown-menu bg-black m-0">
+                        <a href = "barbaro.html" class="dropdown-item">Bárbaro</a>
+                        <a href = "bardo.html" class="dropdown-item">Bardo</a>
+                        <a href = "clerigo.html" class="dropdown-item">Clérigo</a>
+                        <a href = "druida.html" class="dropdown-item">Druida</a>
+                        <a href = "feiticeiro.html" class="dropdown-item active">Feiticeiro</a>
+                        <a href = "lutador.html" class="dropdown-item">Lutador</a>
+                        <a href = "mago.html" class="dropdown-item">Mago</a>
+                        <a href = "monge.html" class="dropdown-item">Monge</a>
+                        <a href = "paladino.html" class="dropdown-item">Paladino</a>
+                        <a href = "ranger.html" class="dropdown-item">Ranger</a>
+                        <a href = "rogue.html" class="dropdown-item">Rogue</a>
+                        <a href = "warlock.html" class="dropdown-item">Warlock</a>
+
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Raças</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="gallery.html" class="dropdown-item">Humano</a>
+                        <a href="feature.html" class="dropdown-item">Dragonborn</a>
+                        <a href="team.html" class="dropdown-item">Dwarf</a>
+                        <a href="testimonial.html" class="dropdown-item">Elf</a>
+                        <a href="404.html" class="dropdown-item">Gnome</a>
+                        <a href = "index.html" class="dropdown-item">Half Elf</a>
+                        <a href = "index.html" class="dropdown-item">Halfling</a>
+                        <a href = "index.html" class="dropdown-item">Half Orc</a>
+                        <a href = "index.html" class="dropdown-item">Tielfling</a>
+                    </div>
+                </div>
+                <a href="mais.html" class="nav-item nav-link">Mais</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+     <!-- feiticeiro Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">Classes</p>
+                <h1 class="mb-5">Feiticeiro</h1>
+            </div>
+            
+            <div class="mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 80% ;">
+                <center>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EHJGJL40cQs?mute=1" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </center>
+                <div class="table">
+                    <h6><span style="font-weight:bold"><i class="fa fa-heart " aria-hidden="true"></i>Pontos de vida</span></h6>
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <th>Dado</th>
+                            <td>1d6</td>
+                        </tr>
+                        <tr>
+                            <th>Pontos de vida a nível 1</th>
+                            <td>6 + modificador da Constituição</td>
+                        </tr>
+                        <tr>
+                            <th>Pontos de vida a níveis superiores</th>
+                            <td>1d6(ou 4) + modificador da constituição por nível acima de 1</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table">
+                    <h6><span style="font-weight:bold"><i class="fa fa-star " aria-hidden="true"></i>Proficiência</span></h6>
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <th>Armadura</th>
+                            <td>nenhuma</td>
+                        </tr>
+                        <tr>
+                            <th>Armas</th>
+                            <td>adagas, dardos, bastão (quarterstaff), fisga, bestas leves</td>
+                        </tr>
+                        <tr>
+                            <th>Ferramentas</th>
+                            <td>nenhuma</td>
+                        </tr>
+                        <tr>
+                            <th>Chance de evadir</th>
+                            <td>Constituição, Carisma</td>
+                        </tr>
+                        <tr>
+                            <th>Habilidades (escolhe dois)</th>
+                            <td>Arcana, Decepção, Perspicácia, Intimidação, Persuasão, Religião</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </br>
+
+            <div class="table">
+                <h6><span style="font-weight:bold">Spellcasting</span></h6>
+                <table class="table">
+                    <tbody>
+                    <tr >
+                        <td>Um evento na tua vida passada ou um antepassado teu deixou uma marca em ti infundindo-te com magia arcana</td>
+                    </tr>
+                    <tr>
+                        <td>A nível 1 sabes 2 feitiços de nível 1, aprendes um novo a cada nível até ao nível 10, a partir daí aprendes 1 a cada 2 níveis até chegares a um limite de 15. Cada um destes feitiços tem de ser de um nível para o qual tenhas spellslots.</td>
+                    </tr>
+                    <tr>
+                        <td>Quando ganhas um nível podes também substituir um que já saibas por outro novo (desde que tenhas spellslots para tal)</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            </br>
+               
+            </div>
+        </div>
+    </div>
+    <!-- feiticeiro End -->
+
+
+
+
+
+    
+
+    <div class="container-fluid bg-dark px-0">
+        <div class="row g-0 d-none d-lg-flex">
+            <div class="col-lg-6 ps-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center text-light">
+                    <a class="btn btn-link text-light" href="https://www.facebook.com/dungeonsanddragons/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-link text-light" href="https://twitter.com/Wizards_DnD"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-link text-light" href="https://www.instagram.com/dndwizards/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6 text-end">
+                <div class="h-100 bg-secondary d-inline-flex align-items-center text-dark py-2 px-4">
+                    <span class="me-2 fw-semi-bold"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
+                    <span>+012 345 6789</span>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-secondary text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <a class="fw-semi-bold" href="#">Guia DnD</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
